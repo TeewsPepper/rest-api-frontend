@@ -27,12 +27,12 @@ const NewProduct = () => {
   return (
     <>
       <div className="flex justify-between">
-        <h2 className="text-4xl font-black text-slate-500">
+        <h2 className="text-4xl font-black text-slate-600">
           Ingresar producto
         </h2>
         <Link
           to="/"
-          className="rounded-md bg-indigo-600 p-3 text-sm font-bold text-white shadow-sm hover:bg-indigo-500"
+          className="rounded-md bg-slate-700 p-3 text-sm font-bold text-white shadow-sm hover:bg-slate-500"
         >
           Volver
         </Link>
@@ -48,7 +48,7 @@ const NewProduct = () => {
         <ProductForm />
         <input
           type="submit"
-          className="mt-5 w-full bg-indigo-600 p-2 text-white font-bold text-lg cursor-pointer rounded"
+          className="w-full bg-slate-700 p-2 text-white font-bold text-lg cursor-pointer rounded hover:bg-slate-500"
           value="Registrar Producto"
         />
       </Form>
